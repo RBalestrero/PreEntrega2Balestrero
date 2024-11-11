@@ -33,7 +33,11 @@ do {
     case 5:
       editTicketState();
       break;
+    case 6:
+      break;
     default:
+      alert(
+        "La opcion ingresada no es valida, vuelva a seleccionar una opcion correcta.");
       break;
   }
 } while (selec !== 6);
